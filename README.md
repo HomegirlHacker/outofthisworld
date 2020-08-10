@@ -1,4 +1,4 @@
-# outofthisworld
+# Out of This World Pitch
 
 Developed by Amehja Williams & Sarah Lin for Kode With Klossy 2020 Summer Camp
 
