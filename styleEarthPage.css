@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.header
+{
+  margin-top: 5px;
+  position: sticky;
+  font-family: 'Orbitron';
+  font-size: 60px;
+  text-align: center;
+  color: #f3c623;
+  text-shadow: 2px 2px #40bad5;
+}
+
+html, body {
+  background-repeat:no-repeat;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background: no-repeat 50% 50%;
+  background-size: cover;
+  background-color:  #120136;
+  box-shadow: inset 0 0 20vmin 0 #120136;
+    
+}
+
+.earthModelDiv{
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 98%;
+
+
+  border-width: 18px;
+  border-color: #f3c623;
+  border-style: double;
+  border-radius: 4px;
+}
+
+.earthModelImg{
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+
+.info:hover {
+  background-color: #40bad5;
+  color: #120136;
+  text-shadow: 1px 1px #f3c623;
+}
+
+/* HYDROSPHERE INFORMATION STYLING */
+
+.hydroDiv{
+  position: absolute;
+  
+  top: 525px;
+  right: 150px;
+  width: 350px;
+  height: 100px;
+  
+}
+
+.hydroBtn{
+
+  width: 450px;
+  height: 175px;
+  padding: 10px;
+
+  font-family: "Open Sans";
+  font-size: 14px;
+  color:  #120136;
+  text-shadow: 1px 1px  #40bad5;
+  
+  background-color: #f3c623;
+  border-width: 6px;
+  border-style: ridge;
+  border-color: #10375c;
+  border-radius: 4px;
+}
+
+.patchPicture{
+  position: absolute;
+  top: 200px;
+  right: 50px;
+  
+
+}
+.patchImg{
+  visibility: hidden;
+  width: 400px;
+  height: 250px;
+  border-radius: 4px;
+  border-width: 6px;
+  border-style:hidden;
+}
+
+.patchImageSrc{
+  font-family: "Open Sans";
+  visibility: hidden;
+}
+
+/* BIOSPHERE INFORMATION STYLING */
+
+.bioDiv{
+  position: absolute;
+  /* top: 0;
+  right: 0; */
+  top: 400px;
+  right: 690px;
+  width: 350px;
+  height: 115px;
+  visibility: hidden;
+  
+}
+
+.bioBtn{
+  visibility: hidden;
+  padding: 10px;
+
+  width: 500px;
+  height: 140px;
+  font-family: "Open Sans";
+  font-size: 14px;
+  color:  #120136;
+  text-shadow: 1px 1px  #40bad5;
+
+  background-color: #f3c623;
+  border-width: 6px;
+  border-style: ridge;
+  border-color: #10375c;
+  border-radius: 4px;
+}
+
+.bioPicture{
+ 
+  position: absolute;
+  top: 200px;
+  right: 50px;
+
+}
+.bioImg{
+  visibility: hidden;
+  width: 400px;
+  height: 250px;
+  border-radius: 4px;
+  border-width: 6px;
+  border-style:hidden;
+}
+
+.bioImageSrc{
+  
+  font-family: "Open Sans";
+  visibility: hidden;
+}
+
+/* ATMOSPHERE INFORMATION STYLING */
+
+.geoDiv{
+  position: absolute;
+  /* top: 0;
+  right: 0; */
+  top: 575px;
+  right: 700px;
+  width: 350px;
+  height: 100px;
+  
+}
+
+.geoBtn{
+  visibility: hidden;
+  padding: 10px;
+
+  width: 500px;
+  height: 130px;
+  font-family: "Open Sans";
+  font-size: 14px;
+  color:  #120136;
+  text-shadow: 1px 1px  #40bad5;
+
+  background-color: #f3c623;
+  border-width: 6px;
+  border-style: ridge;
+  border-color: #10375c;
+  border-radius: 4px;
+}
+
+.geoPicture{
+  position: absolute;
+  top: 200px;
+  right: 50px;
+
+}
+
+.geoImg{
+
+  visibility: hidden;
+  width: 400px;
+  height: 250px;
+  border-radius: 4px;
+  border-width: 6px;
+  border-style:hidden;
+}
+
+
+
+/* ATMOSPHERE INFORMATION STYLING */
+
+.atmosDiv{
+ 
+  position: absolute;
+  /* top: 0;
+  right: 0; */
+  top: 50px;
+  right: 750px;
+  width: 350px;
+  height: 100px;
+  
+}
+
+.atmosBtn{
+  visibility: hidden;
+
+  width: 500px;
+  height: 130px;
+  font-family: "Open Sans";
+  font-size: 14px;
+  color:  #120136;
+  text-shadow: 1px 1px  #40bad5;
+
+  background-color: #f3c623;
+  border-width: 6px;
+  border-style: ridge;
+  border-color: #10375c;
+  border-radius: 4px;
+}
+
+.atmosPicture{
+  position: absolute;
+  top: 200px;
+  right: 50px;
+
+}
+
+.atmosImg{
+  visibility: hidden;
+  width: 400px;
+  height: 250px;
+  border-radius: 4px;
+  border-width: 6px;
+  border-style:hidden;
+}
+
+
+/* RETURN BUTTON */
+.returnDiv{
+  margin: 14px;
+  width: 50px;
+  height: 50px;
+  
+}
+
+.returnBtn{
+
+  
+  width: 190px;
+  height: 75px;
+  padding: 10px;
+
+  font-family: "Open Sans";
+  font-size: 16px;
+  
+  background-color: #f3c623;
+  border-width: 6px;
+  border-style: ridge;
+  border-color: #10375c;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* SOURCE INFORMATION ELEMENTS */
+#sourceContentDiv {
+  background-color: #10375c;
+  margin: 50px;
+  padding: 15px;
+}
+
+#sourceContentPara{
+  text-align: left;
+  font-family: "Open Sans";
+  font-size: 24px;
+  color: #f3c623;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 5%;
+
+  text-shadow: 1px 1px  #40bad5;
+  
+}
+
+#sourceContentBulletPoint{
+  color: #f3c623;
+  font-family: "Open Sans";
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 5%;
+
+  text-shadow: 1px 1px  #40bad5;
+}
+
+.button {
+  background-color: #f3c623; /* Green */
+  border: none;
+  color: #10375c;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  /* margin: 4px 2px; */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: #40bad5;
+  color: #120136;
+}
+
+.container { 
+  height: 200px;
+  position: relative;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

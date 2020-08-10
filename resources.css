@@ -1,0 +1,94 @@
+body{
+  background-color: #120136;
+  padding: 20px;
+}
+
+.header {
+  padding: 10px;
+  font-size: 60px;
+  position: sticky;
+  font-family: 'Orbitron';
+  text-align: center;
+  color: #f3c623;
+  text-shadow: 2px 2px #40bad5;
+}
+
+h2{
+  font-family: 'Orbitron';
+  color: #40bad5;
+  text-shadow: 1px 1px #f3c623;
+  font-size: 40px;
+  text-align: center;
+}
+
+h5{
+  font-family: 'Exo 2';
+  color: #f3c623;
+  /* text-shadow: 1px 1px #40bad5; */
+  font-size: 30px;
+  margin: 10px;
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 24px;
+  color: #40bad5;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #10375c;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #10375c;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn { 
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.button {
+  background-color: #f3c623; /* Green */
+  border: none;
+  color: #10375c;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  /* margin: 4px 2px; */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: #40bad5;
+  color: #120136;
+}
+
+.container { 
+  height: 200px;
+  position: relative;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+  background-color: #120136;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 10px;
+  font-size: 60px;
+  position: sticky;
+  font-family: 'Orbitron';
+  text-align: center;
+  color: #f3c623;
+  text-shadow: 2px 2px #40bad5;
+}
+
+.button {
+  background-color: #f3c623; /* Green */
+  border: none;
+  color: #10375c;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  /* margin: 4px 2px; */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+.button1:hover {
+  background-color: #40bad5;
+  color: #120136;
+}
+
+.container { 
+  height: 200px;
+  position: relative;
+}
+
+.vertical-center {
+  margin: 10px;
+  position: absolute;
+  top: 0;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+/* html, body {
+  background-repeat:no-repeat;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background: no-repeat 50% 50%;
+  background-size: cover;
+  background-color: #10375c;
+  box-shadow: inset 0 0 20vmin 0 #120136;
+    
+} */
+
+
+/* Contains all content on beyond page except for the sources */
+#contentContainer{
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+/* Contains all content related to each info example (e.g. lunar junkyard, martian junkyard, etc.) */
+#infoDiv{
+  display: flex;
+  flex-direction: row;
+
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+/* Contains all image content */
+#contentImageDivLunar{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  border-style: double;
+  border-radius: 6px;
+  border-width: 4px;
+  border-color: #f3c623;
+  background-image: url(https://www.popsci.com/resizer/p22gLkD9JzQnWQ29EYu-JBuLnxM=/447x229/arc-anglerfish-arc2-prod-bonnier.s3.amazonaws.com/public/WJTZVMDCIPQNNPKWURRJW5VKDQ.jpg);
+  background-size: cover;
+  
+}
+
+#contentImageDivMartian{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  border-style: double;
+  border-radius: 6px;
+  border-width: 4px;
+  border-color: #f3c623;
+  background-image: url(https://images.pexels.com/photos/4355348/pexels-photo-4355348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  
+
+  width: 450px;
+  height: 400px;
+  
+}
+
+#contentImageMartian{
+  object-fit: cover;
+  width: 450px;
+  height: 400px;
+}
+
+
+
+
+/* Contains all text content */
+#contentInfoDiv{
+  display: flex;
+  flex-direction: row;
+  background-color: #f3c623;
+
+  border-color: #120136;
+  border-style: double;
+  border-radius: 6px;
+  border-width: 6px;
+  margin: 10px;
+  padding: 14px;
+}
+
+/* Contains all content involing the martian junkyard info */
+#contentInfoDivMartian{
+  display: flex;
+  flex-direction: column;
+  background-color: #f3c623;
+
+  border-color: #120136;
+  border-style: double;
+  border-radius: 6px;
+  border-width: 6px;
+  margin: 10px;
+  padding: 14px;
+
+}
+
+/* Styles content text titles*/
+.contentInfoTextIntro{
+  font-family: "Open Sans";
+  font-size: 18px;
+  padding: 10px;
+  color:  #120136;
+  text-shadow: 1px 1px  #40bad5;
+}
+
+/* Styles content text */
+.contentInfoText{
+  font-family: "Open Sans";
+  font-size: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color:  #120136;
+  text-shadow: 1px 1px  #40bad5;
+}
+
+
+
+
+
+
+
+/* SOURCE INFORMATION ELEMENTS */
+#sourceContentDiv {
+  background-color: #10375c;
+
+  margin: 50px;
+  padding: 15px;
+}
+
+#sourceContentPara{
+  text-align: left;
+  font-family: "Open Sans";
+  font-size: 24px;
+  color: #f3c623;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 5%;
+  text-shadow: 1px 1px  #40bad5;
+  
+}
+
+#sourceContentBulletPoint{
+  color: #f3c623;
+  font-family: "Open Sans";
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 5%;
+  text-shadow: 1px 1px  #40bad5;
+}

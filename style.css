@@ -1,0 +1,298 @@
+#loader {
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: visible;
+    background: #fff url('https://cdn.dribbble.com/users/419236/screenshots/2613005/rocketloop.gif') center center;
+}
+
+html, body {
+    background-repeat:no-repeat;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(background.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    background-color: #10375c;
+    box-shadow: inset 0 0 20vmin 0 #120136;
+  
+}
+
+#titleBarText {
+    position: absolute;
+    color: black;
+    font-family: poppins;
+}
+
+body{
+  background-color: #10375c;
+  box-shadow: inset 0 0 20vmin 0 #120136;
+}
+
+
+#content{
+  /* background-color: #f3c623; */
+  top: 0;
+  margin: 0px;
+  /* position: fixed; */
+  width: 100%;
+}
+
+.header {
+  margin-top: 5px;
+  position: sticky;
+  font-family: 'Orbitron';
+  font-size: 60px;
+  text-align: center;
+  color: #f3c623;
+  text-shadow: 2px 2px #40bad5;
+}
+
+/* #welcome{
+  font-family: 'Exo 2';
+  color: #40bad5;
+  text-shadow: 1px 1px #f3c623;
+  font-size: 36px;
+  text-align: center;
+} */
+
+#mission{
+  font-family: 'Orbitron';
+  color: #40bad5;
+  text-shadow: 1px 1px #f3c623;
+  font-size: 40px;
+  text-align: center;
+}
+
+#missionStatement{
+  font-family: 'Exo 2';
+  color: #f3c623;
+  /* text-shadow: 1px 1px #40bad5; */
+  font-size: 30px;
+  margin: 10px;
+  text-align: left;
+  padding: 22px;
+}
+
+#welcomeStatement{
+  font-family: 'Exo 2';
+  color: #f3c623;
+  text-shadow: 1px 1px #40bad5;
+  font-size: 36px;
+  /* margin: 10px; */
+  text-align: center;
+}
+
+#missionInfo {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #f3c623;
+  margin-left: 60px;
+  margin-right: 60px;
+  border-radius: 20px;
+}
+
+
+/* INTRODUCTION INFORMATION ELEMENTS */
+#introductionContentDiv {
+  background-color: #f3c623;
+  border-radius: 6px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 60px;
+  /* height: 250px; */
+}
+
+#introductionContentParaTitle{
+  text-align: center;
+  font-family: "Orbitron";
+  background-color:  #40bad5;
+  border-radius: 6px;
+  border-style: ridge;
+  font-size: 40px;
+  color: #120136;
+}
+
+#introductionContentPara{
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 40px;
+  color: #035aa6;
+  margin-top: -0.5%;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+#introductionContentBulletPoint{
+  color: #035aa6;
+  font-family: "Open Sans";
+  text-align: center;
+  /* margin: 6px; */
+}
+
+/* SOURCE INFORMATION ELEMENTS */
+#sourceContentDiv {
+  background-color: #120136;
+  margin: 60px;
+  padding: 15px;
+}
+
+#sourceContentPara{
+  text-align: left;
+  font-family: "Open Sans";
+  font-size: 24px;
+  color: #f3c623;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 5%;
+  text-shadow: 1px 1px  #40bad5;
+  
+}
+
+#sourceContentBulletPoint{
+  color: #f3c623;
+  font-family: "Open Sans";
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 5%;
+  text-shadow: 1px 1px  #40bad5;
+}
+
+.wrap{
+  position:relative;
+  width:80vmin; height:80vmin;
+  margin:0 auto;
+  background:inherit;
+  transform:scale(0.2) translatez(0px);
+  opacity:0;
+  transition:transform .5s, opacity .5s;
+}
+/* CHANGES COLOR FILTER OF MENU BUTTONS */
+a{
+  position:absolute;
+  left:0; top:0;
+  width:47.5%; height:47.5%;
+  overflow:hidden;
+  transform:scale(.5) translateZ(0px);
+}
+a div{
+  height:100%;
+  background-size:cover;
+  opacity:.5;
+  transition:opacity .5s;
+  border-radius:inherit;
+}
+
+
+/* Top Left Image Formatting */
+a:nth-child(1){
+  border-radius:40vmin 0 0 0;
+  transform-origin: 110% 110%;
+  transition:transform .4s .15s;
+}
+/* Top Left Image */
+a:nth-child(1) div{
+  background-image:url('https://thumbs.gfycat.com/SimplePeacefulButterfly-size_restricted.gif');
+}
+
+
+/* Top Right Image Formatting */
+a:nth-child(2){
+  border-radius:0 40vmin 0 0;
+  left:52.5%;
+  transform-origin: -10% 110%;
+  transition:transform .4s .2s;
+}
+/* Top Right Image */
+a:nth-child(2) div{
+  background-image:url('https://thumbs.gfycat.com/IllfatedTimelyBarnswallow-size_restricted.gif');
+}
+
+/* Bottom Left Image Formatting */
+a:nth-child(3){
+  border-radius:0 0 0 40vmin;
+  top:52.5%;
+  transform-origin: 110% -10%;
+  transition:transform .4s .25s;
+}
+/* Buttom Left Image */
+a:nth-child(3) div{
+  background-image:url('https://thumbs.gfycat.com/KlutzySmallAntelopegroundsquirrel-size_restricted.gif');
+}
+
+
+/* Bottom Right Image Formatting*/
+a:nth-child(4){
+  border-radius:0 0 40vmin 0;
+  top:52.5%; left:52.5%;
+  transform-origin: -10% -10%;
+  transition:transform .4s .3s;
+}
+/* Bottom Right Image */
+a:nth-child(4) div{
+  background-image: url('https://thumbs.gfycat.com/ClumsyNimbleGoral-size_restricted.gif');
+}
+
+
+/* CENTER EARTH IMAGE */
+a:nth-child(5){
+  width:55%;height:55%;
+  left:22.5%; top:22.5%;
+  border-radius:50vmin;
+  /* yellow circle surrounding earth */
+  box-shadow:0 0 0 5vmin #f3c623;
+  transform:scale(1);
+}
+a:nth-child(5) div{
+  background-image: url('gifntext-gif.gif');
+}
+
+/* Hamburger Icon */
+span{
+  position:relative;
+  display:block;
+  margin:0 auto;
+  top:45vmin;
+  width:10vmin; height:10vmin;
+  border-radius:100%;
+  background:#f3c623;
+  transform:translateZ(0px);
+  cursor: pointer;
+}
+
+/* Lines of Hamburger icon */
+span span{
+  position:absolute;
+  width:60%;height:3px;
+  background: #120136;
+  left:20%; top:50%;
+  border-radius:0;
+  cursor: pointer;
+}
+span span:after, span span:before{
+  content:'';
+  position:absolute;
+  left:0; top:-1.5vmin;
+  width:100%; height:100%;
+  background:inherit;
+}
+span span:after{
+  top:1.5vmin;
+}
+span:hover + .wrap, .wrap:hover{
+  transform:scale(.8) translateZ(0px);
+  opacity:1;
+  cursor: pointer;
+}
+span:hover + .wrap a, .wrap:hover a{
+  transform:scale(1) translatez(0px);
+}
+a:hover div{
+  opacity:1;
+  transform:translatez(0px);
+}
